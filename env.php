@@ -2,7 +2,7 @@
 
 <?php 
 	try{
-		$mbd = new PDO('mysql:host=localhost; dbname=db_chamilo;', 'db_chamilo', 'db_chamilo', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES  \'UTF8\''));
+		$mbd = new PDO('mysql:host=localhost; dbname=sis_comandas;', 'daranibar', 'daranibar', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES  \'UTF8\''));
 	}catch(PDOException $e){
 		echo "Fallo en la conexion ".$e->getMessage();
 	}
